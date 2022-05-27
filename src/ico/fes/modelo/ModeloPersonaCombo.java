@@ -4,10 +4,12 @@
  */
 package ico.fes.modelo;
 
+import ico.fes.db.PersonaDao;
 import ico.fes.herencia.Persona;
 import java.util.ArrayList;
 import javax.swing.ComboBoxModel;
 import javax.swing.event.ListDataListener;
+import org.sqlite.SQLiteException;
 
 /**
  *
